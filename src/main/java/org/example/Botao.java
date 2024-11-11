@@ -16,7 +16,11 @@ public class Botao {
 
     public void setDispositivo(Dispositivo dispositivo) {
         atribuirDispositivo(dispositivo);
+
+        System.out.println("Passando a classe" + dispositivo.toString() + "Para o botão");
         this.dispositivo = dispositivo;
+
+
     }
 
     public void ligar(){
